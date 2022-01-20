@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: green
+}
+
+.innerheader{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: green
+}
+
+.container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.container h1{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.container h1 span{
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.navigation{
+    float: right;
+    height: 100%;   
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px ;
+}
+
+.navigation a:last-child{
+    padding-right: 0px;
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+#index-header {
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    font-size: 20px;
+    background-image: url(Images/Website\ Background.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+    align-items: center;
+    width: 75%;
+}
+
+footer {
+    clear: both;
+    float: left;
+    width: 80%;
+    margin-left: auto;
+}
+
+.creativetitle {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbox-item {
+    width: 90%;
+    margin: 10px;
+}
+
+.flexbox-item-1{
+    min-height: 200px;
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+}
+
+.flexbox-item-3{
+    min-height: 200px;
+}
+
+.flexbox-inner-item{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flexbox-container2 {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    min-height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbox-item-index {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flexbox-item-index p {
+    text-align: justify;
+    padding: 15px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#Ingredients-A {
+    float: right;
+    clear: both;
+}
+
+#IngredientList {
+    text-align: left;
+}
